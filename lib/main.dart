@@ -2,14 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:snake_game/pages/main_page.dart';
 import 'dart:async';
 import 'dart:ui';
-
+import 'package:snake_game/pages/gameScreen.dart';
 
 void main() {
   runApp(new MaterialApp(
     debugShowCheckedModeBanner: false,
     home: new SplashScreen(),
     routes: <String, WidgetBuilder>{
-      '/HomeScreen': (BuildContext context) => new HomeScreen()
+      '/HomeScreen': (BuildContext context) => new HomeScreen(),
+      '/GameScreen': (BuildContext context) => new GameScreen()
     },
   ));
 }
