@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:snake_game/main.dart';
+
 import 'dart:ui';
 
 
@@ -48,7 +48,7 @@ Widget button1(BuildContext context) {
         textColor: Colors.white,
         child: new Text(
           'Start',
-          style: TextStyle(fontFamily: 'IndieFlower', color: Colors.blueGrey),
+
         ),
         shape: RoundedRectangleBorder(
             borderRadius: new BorderRadius.circular(18.0),

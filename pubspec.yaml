@@ -60,9 +60,9 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: Schyler
+    - family: Pixel Emulator
       fonts:
-        - asset: fonts/IndieFlower.ttf
+        - asset: fonts/pixel_emulator.otf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro

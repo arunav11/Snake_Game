@@ -10,7 +10,7 @@ void main() {
     home: new SplashScreen(),
     routes: <String, WidgetBuilder>{
       '/HomeScreen': (BuildContext context) => new HomeScreen(),
-      '/GameScreen': (BuildContext context) => new GameScreen()
+      '/GameScreen': (BuildContext context) => new Game()
     },
   ));
 }
